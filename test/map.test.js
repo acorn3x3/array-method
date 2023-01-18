@@ -34,7 +34,7 @@ test.skip('getCountryNames should return the country names', () => {
   ]);
 });
 
-test('getCountryCodes return a nested array of countries and their codes', () => {
+test.skip('getCountryCodes return a nested array of countries and their codes', () => {
   expect(getCountryCodes(countries)).toStrictEqual([
     ['Ecuador', 'EC'],
     ['Lesotho', 'LS'],
@@ -66,6 +66,6 @@ test('getCountryCodes return a nested array of countries and their codes', () =>
   ]);
 });
 
-test.skip('getBrands should return the list of brands', () => {
+test('getBrands should return the list of brands', () => {
   expect(getBrands(brands)).toStrictEqual(['Nike', 'Puma', 'Adidas']);
 });
